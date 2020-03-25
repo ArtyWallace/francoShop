@@ -1,0 +1,21 @@
+.nav {
+
+}
+
+.nav__link {
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+
+    margin-right: 35px;
+
+    transition: color .2s linear;
+
+    &:last-child {
+        margin-right: 0;
+    }
+
+    &:hover {
+        color: #8262b5;
+    }
+}

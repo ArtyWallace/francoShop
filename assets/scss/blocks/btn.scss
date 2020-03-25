@@ -1,0 +1,18 @@
+.btn {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    background-color: #a57ee7;
+    border: 1px solid #7a5cad;
+
+    transition: background-color .2s linear;
+
+    &:hover {
+        background-color: #7a5cad;
+    }
+
+    &--big {
+        padding: 25px 41px;
+    }
+}
+
