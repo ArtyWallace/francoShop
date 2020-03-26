@@ -1,0 +1,147 @@
+.footer {
+    width: 100%;
+    background-color: #484f50;
+}
+
+.footer__inner {
+    display: flex;
+    justify-content: space-between;
+
+    padding: 104px 0 137px;
+}
+
+.footer__item {
+    width: 30%;
+
+    &:nth-child(2),
+    &:nth-child(3) {
+        width: 15%;
+    }
+}
+
+.footer__title {
+    font-size: 16px;
+    font-weight: 700;
+    color: #f7f7f7;
+    letter-spacing: 0.8px;
+
+    margin-bottom: 54px;
+
+    position: relative;
+
+    &:before {
+        content: "";
+        width: 30px;
+        height: 1px;
+
+        background-color: #8262b5;
+
+        position: absolute;
+        bottom: -9px;
+        left: 0;
+    }
+
+    &:after {
+        content: "";
+        width: 30px;
+        height: 1px;
+
+        background-color: #8262b5;
+        opacity: 0.5;
+
+        position: absolute;
+        bottom: -13px;
+        left: 10px;
+    }
+}
+
+.footer__text {
+    font-size: 14px;
+    color: #aaaaaa;
+
+    line-height: 22px;
+    margin-bottom: 23px;
+}
+
+.footer__logo {
+    display: block;
+    margin: 0 auto;
+}
+
+.footer__info {
+    font-size: 14px;
+    color: #aaaaaa;
+    
+    & p {
+        margin-bottom: 15px;
+    }
+
+    & a {
+        font-size: 14px;
+        color: #aaaaaa;
+        display: inline-block;
+        margin-bottom: 15px;
+    }
+}
+
+.footer__subscribe {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+
+    & img {
+        width: 80px;
+    }
+
+    & span {
+        font-size: 16px;
+        font-weight: 300;
+        color: #fff;
+
+        text-transform: uppercase;
+    }
+}
+
+.footer__form {
+    display: flex;
+    margin-bottom: 43px;
+
+    & input {
+        font-size: 14px;
+        padding: 18px 14px;
+        width: 100%;
+        outline: none;
+
+        transition: all .2s linear;
+
+        &:first-child {
+            padding: 18px 32px 18px 17px;
+        }
+
+        &:last-child {
+            background-color: #8571d7;
+            border: none;
+
+            color: #ebebeb;
+            cursor: pointer;
+
+            &:hover {
+                background-color: #7a5cad;
+            }
+        }
+    }
+}
+
+.footer__social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    & a {
+        margin-right: 15px;
+
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+}
